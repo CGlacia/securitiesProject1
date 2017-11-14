@@ -8,3 +8,4 @@ using namespace std;
 
 bool EncryptDecrypt(string, string, string);
 unsigned char GetStateByte();
+string convertHexToAscii(string);

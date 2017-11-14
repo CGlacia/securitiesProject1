@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2008
+VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RC4", "RC4\RC4.vcxproj", "{D403C4A6-0142-4C81-AD0C-3A0880B3B504}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RC4Analysis", "RC4Analysis\RC4Analysis.vcxproj", "{47017355-B10B-4372-9B8D-A68A800BA20A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,14 @@ Global
 		{D403C4A6-0142-4C81-AD0C-3A0880B3B504}.Release|x64.Build.0 = Release|x64
 		{D403C4A6-0142-4C81-AD0C-3A0880B3B504}.Release|x86.ActiveCfg = Release|Win32
 		{D403C4A6-0142-4C81-AD0C-3A0880B3B504}.Release|x86.Build.0 = Release|Win32
+		{47017355-B10B-4372-9B8D-A68A800BA20A}.Debug|x64.ActiveCfg = Debug|x64
+		{47017355-B10B-4372-9B8D-A68A800BA20A}.Debug|x64.Build.0 = Debug|x64
+		{47017355-B10B-4372-9B8D-A68A800BA20A}.Debug|x86.ActiveCfg = Debug|Win32
+		{47017355-B10B-4372-9B8D-A68A800BA20A}.Debug|x86.Build.0 = Debug|Win32
+		{47017355-B10B-4372-9B8D-A68A800BA20A}.Release|x64.ActiveCfg = Release|x64
+		{47017355-B10B-4372-9B8D-A68A800BA20A}.Release|x64.Build.0 = Release|x64
+		{47017355-B10B-4372-9B8D-A68A800BA20A}.Release|x86.ActiveCfg = Release|Win32
+		{47017355-B10B-4372-9B8D-A68A800BA20A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
