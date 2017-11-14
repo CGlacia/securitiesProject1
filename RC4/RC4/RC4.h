@@ -6,6 +6,5 @@
 
 using namespace std;
 
-void EncryptDecrypt(string, string, string);
-char GetStateByte();
-void input(string);
+bool EncryptDecrypt(string, string, string);
+unsigned char GetStateByte();
