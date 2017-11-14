@@ -43,7 +43,6 @@ int main()
 					{
 						grams[i].count = grams[i].count + 1;
 						foundGram = true;
-						cout << "Found gram " << grams[i].text << ", " << grams[i].count << endl;
 						break;
 					}
 				}
@@ -54,13 +53,10 @@ int main()
 					newGram.text = string(1, firstch);
 					newGram.count = 1;
 					grams.push_back(newGram);
-
-					cout << "Added new gram " << newGram.text << endl;
 				}
 
 				foundGram = false;
 				input.get(firstch);
-				cout << "firstch = [" << firstch << "]" << endl;
 			}
 		}
 		else if (type == 2)
@@ -72,11 +68,11 @@ int main()
 				input.get(seconch);
 				string thisGram = firstch + seconch + "";
 
-				for (gram g : grams)
+				for (int i = 0; i < grams.size(); i++)
 				{
-					if (g.text == thisGram)
+					if (grams[i].text == thisGram)
 					{
-						g.count++;
+						grams[i].count = grams[i].count + 1;
 						foundGram = true;
 						break;
 					}
@@ -87,7 +83,10 @@ int main()
 					gram newGram;
 					newGram.text = thisGram;
 					newGram.count = 1;
+					grams.push_back(newGram);
 				}
+				
+				foundGram = false;
 			}
 		}
 	}
